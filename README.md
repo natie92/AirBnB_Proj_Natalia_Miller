@@ -389,7 +389,7 @@ Creates and returns a new spot.
 * Require Authentication: true
 * Request
   * Method: POST
-  * URL: /spots
+  * URL: /spots/create
   * Headers:
     * Content-Type: application/json
   * Body:
@@ -464,7 +464,7 @@ Create and return a new image for a spot specified by id.
 * Require proper authorization: Spot must belong to the current user
 * Request
   * Method: POST
-  * URL: /spot/:spotId/image
+  * URL: /spots/:spotId/image
   * Headers:
     * Content-Type: application/json
   * Body:
@@ -511,7 +511,7 @@ Updates and returns an existing spot.
 * Require proper authorization: Spot must belong to the current user
 * Request
   * Method: PUT
-  * URL: /spot/:spotId
+  * URL: /spots/:spotId
   * Headers:
     * Content-Type: application/json
   * Body:
@@ -599,7 +599,7 @@ Deletes an existing spot.
 * Require proper authorization: Spot must belong to the current user
 * Request
   * Method: DELETE
-  * URL: /spot/:spotId
+  * URL: /spots/:spotId
   * Body: none
 
 * Successful Response
@@ -749,7 +749,7 @@ Create and return a new review for a spot specified by id.
 * Require Authentication: true
 * Request
   * Method: POST
-  * URL: /spot/:id/review
+  * URL: /spot/:id/review/create (?)
   * Headers:
     * Content-Type: application/json
   * Body:
@@ -1109,7 +1109,7 @@ Create and return a new booking from a spot specified by id.
 * Require proper authorization: Spot must NOT belong to the current user
 * Request
   * Method: POST
-  * URL: /spots/:id/bookings 
+  * URL: /spots/:id/bookings/create
   * Body:
 
     ```json
