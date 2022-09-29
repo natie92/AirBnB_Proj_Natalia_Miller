@@ -1,6 +1,6 @@
 # airbnb_proj_natalia_miller
 
-# `<name of application here>`
+# `AIRBNB`
 
 ## Database Schema Design
 
