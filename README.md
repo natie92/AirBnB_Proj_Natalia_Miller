@@ -5,7 +5,7 @@
 ## Database Schema Design
 
 `<insert database schema design here>`
-![AirBnB Schema (3)](https://user-images.githubusercontent.com/83873748/193166557-d043d4c6-ccf2-43e9-ba12-27cd66f9bbcf.png)
+![AirBnB Schema (4)](https://user-images.githubusercontent.com/83873748/193166949-793a1b89-edb7-47bb-9160-e14eca716cce.png)
 
 
 
